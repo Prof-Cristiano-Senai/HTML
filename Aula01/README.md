@@ -1,9 +1,29 @@
-<!DOCTYPE html> <!-- a instrução DOCTYPE deve ser sempre a primeira a aparecer em uma página HTML para indicar ao browser qual versão da linguagem usada. -->
+# Aula 01
+
+## Estrutura Básica do HTML
+
+```html
 <html> <!-- abertura e fechamento da tag html, que delimita o documento. Sendo assim, todas as demais tags da página devem estar nesse espaço -->
     <head> <!-- abertura e fechamento da tag head, que define o cabeçalho do documento. O conteúdo nesse espaço não é visível no browser, mas contém instruções sobre seu conteúdo e comportamento. Dentro dessa tag, por exemplo, podem ser inseridas folhas de estilo e scripts -->
     </head>
     <body> <!--abertura e fechamento da tag body, marcando o espaço no qual deve estar contido o conteúdo visual da página. As demais tags que representam texto, botões etc. devem ser adicionadas nesse intervalo-->
+    </body>
+</html>
+```
 
+## Tags iniciais do HTML
+
+- h(1-6)
+- center
+- p
+- br
+- hr
+
+```html
+<html>
+    <head> 
+    </head>
+    <body> 
         <!-- tag h(1-6) é a tag utilizada para titulos -->
         <h1>Titulo</h1>
         <h2>Titulo</h2>
@@ -26,3 +46,9 @@
 
     </body>
 </html>
+
+```
+
+## Atividade prática
+
+- Desenvolva um curriculo utilizando as tags aprendidas em aula.
